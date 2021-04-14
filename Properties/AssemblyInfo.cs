@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SortingDemo")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("SortRacer")]
+[assembly: AssemblyDescription("vizualizace řadících algoritmů")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("vidmartin")]
 [assembly: AssemblyProduct("SortingDemo")]
-[assembly: AssemblyCopyright("Copyright ©  2020")]
+[assembly: AssemblyCopyright("Copyright © vidmartin 2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

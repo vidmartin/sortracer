@@ -101,7 +101,7 @@ namespace SortRacer
             {
                 var result = await _sortVisualiser.SortAsync(
                     (ISorter<float>)comboBox_sorts.SelectedValue,
-                    GetConfiguredDelayMultiplier(0.2f, 2f),
+                    GetConfiguredDelayMultiplier(0.05f, 2f),
                     null,
                     (_sortCancelTokenSource = new CancellationTokenSource()).Token);
 

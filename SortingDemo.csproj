@@ -98,4 +98,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>if "$(ConfigurationName)"=="Release" copy /Y "$(TargetPath)" "D:\Škola\Maturita INV\SortRacer.exe"</PostBuildEvent>
+  </PropertyGroup>
 </Project>
